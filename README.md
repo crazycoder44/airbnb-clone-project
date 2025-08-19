@@ -214,6 +214,35 @@ Indexing and caching strategies are implemented to enhance performance and scala
 
 ---
 
+## 🔐 API Security
+
+Security is a foundational pillar of the Airbnb Clone Project, ensuring that user data, financial transactions, and system integrity are protected at all times. Below are the key security measures implemented across the API:
+
+### 🧾 Authentication
+All users must authenticate using secure login credentials before accessing protected endpoints. This prevents unauthorized access and ensures that sensitive operations—like booking or payment—are only performed by verified users.
+
+### 🛂 Authorization
+Role-based access control (RBAC) ensures that users can only perform actions permitted by their role (e.g., host vs. guest). For example, only hosts can create property listings, while guests can make bookings. This protects system integrity and enforces business rules.
+
+### 🚦 Rate Limiting
+Rate limiting is applied to prevent abuse and denial-of-service (DoS) attacks. By restricting the number of requests a user can make in a given time frame, the system remains stable and fair for all users.
+
+### 🔒 Data Protection
+Sensitive data such as passwords and payment information are encrypted both in transit and at rest. This protects user privacy and ensures compliance with data protection regulations.
+
+### 🧪 Input Validation & Sanitization
+All incoming data is validated and sanitized to prevent injection attacks and ensure data integrity. This guards against common vulnerabilities like SQL injection and cross-site scripting (XSS).
+
+### 📜 Audit Logging
+Critical actions such as login attempts, bookings, and payments are logged for monitoring and forensic analysis. This helps detect suspicious activity and supports accountability.
+
+---
+
+These measures collectively ensure that the platform remains secure, trustworthy, and resilient against threats—protecting users, their data, and the overall system.
+
+
+---
+
 ## Contact
 
 For questions, suggestions, or collaboration, feel free to open an issue or reach out via email: `vokoliofficial@gmail.com`.
