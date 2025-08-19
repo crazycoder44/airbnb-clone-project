@@ -2,39 +2,62 @@
 
 ## Overview
 
-The **Airbnb Clone Project** is a comprehensive, real-world application designed to simulate the development of a robust booking platform like Airbnb. It involves a deep dive into full-stack development, focusing on backend systems, database design, API development, and application security. This project enables learners to understand complex architectures, workflows, and collaborative team dynamics while building a scalable web application.
+The **Airbnb Clone Project** is a comprehensive, real-world application designed to simulate the development of a robust booking platform like Airbnb. It involves a deep dive into full-stack development, focusing on backend systems, database design using MySQL or PostgreSQL, API development using Django (DRF), containerization using Docker, Redis for caching, Celery for handling asynchronous tasks and GitHub Actions for automated pipelines for testing and deploying code changes. This project enables learners to understand complex architectures, workflows, and collaborative team dynamics while building a scalable web application.
 
 ---
 
-## Project Goals
+## 🏆 Project Goals
 
-- Build a scalable booking platform with real-world features
-- Understand and implement robust backend architecture
-- Understand database design principles
-- Design and manage relational databases for dynamic content
-- Develop secure and efficient APIs
-- Gain proficiency in documenting and planning complex software projects effectively
-- Practice CI/CD workflows for automated deployment
-- Collaborate effectively using GitHub and agile methodologies
-- Integrate modern technologies like Django, MySQL, GraphQL into a unified development ecosystem
+### User Management
+Implement a secure system for user registration, authentication, and profile management.
 
----
+### Property Management
+Develop features for property listing creation, updates, and retrieval.
 
-## Tech Stack
+### Booking System
+Create a booking mechanism for users to reserve properties and manage booking details.
 
-| Layer              | Technology Used         |
-|--------------------|-------------------------|
-| Backend Framework  | Django                  |
-| Database           | MySQL                   |
-| API Layer          | GraphQL                 |
-| Containerization   | Docker                  |
-| CI/CD              | GitHub Actions          |
-| Version Control    | Git & GitHub            |
-| Documentation      | OpenAPI                 |
+### Payment Processing
+Integrate a payment system to handle transactions and record payment details.
+
+### Review System
+Allow users to leave reviews and ratings for properties.
+
+### Data Optimization
+Ensure efficient data retrieval and storage through database optimizations.
 
 ---
 
-## Team Roles
+## ⚙️ Technology Stack
+
+### Django
+A high-level Python web framework used for building the RESTful API.
+
+### Django REST Framework
+Provides tools for creating and managing RESTful APIs.
+
+### PostgreSQL
+A powerful relational database used for data storage.
+
+### GraphQL
+Allows for flexible and efficient querying of data.
+
+### Celery
+For handling asynchronous tasks such as sending notifications or processing payments.
+
+### Redis
+For caching and session management.
+
+### Docker
+Containerization tool for consistent development and deployment environments.
+
+### CI/CD Pipelines
+Automated pipelines for testing and deploying code changes.
+
+
+---
+
+## 👥 Team Roles
 
 Below are the key roles and their responsibilities:
 
