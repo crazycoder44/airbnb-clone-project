@@ -186,6 +186,34 @@ This schema supports scalability, data integrity, and efficient querying, formin
 
 ---
 
+## 🛠️ Feature Breakdown
+
+This section outlines the core features of the Airbnb Clone Project, each designed to replicate real-world functionality and enhance the user experience.
+
+### 📘 API Documentation
+The backend APIs are documented using the OpenAPI standard, ensuring clarity and ease of integration for developers. Django REST Framework provides robust endpoints for CRUD operations, while GraphQL enables flexible and efficient data querying.
+
+### 🔐 User Authentication
+Users can register, log in, and manage their profiles securely. Authentication endpoints ensure that only authorized users can access and modify their data, forming the foundation for personalized experiences and secure transactions.
+
+### 🏡 Property Management
+Hosts can create, update, and delete property listings through dedicated endpoints. This feature allows for dynamic content management and ensures that users can browse accurate and up-to-date property information.
+
+### 📆 Booking System
+Guests can make reservations, modify booking details, and manage check-in/check-out dates. This system ensures seamless scheduling and availability tracking, mimicking the core functionality of platforms like Airbnb.
+
+### 💳 Payment Processing
+Integrated payment endpoints handle transactions related to bookings. This feature ensures secure and traceable financial operations, supporting multiple payment methods and statuses.
+
+### 📝 Review System
+Users can leave ratings and comments on properties they’ve stayed in. This feedback mechanism helps maintain quality standards and builds trust among users by showcasing authentic experiences.
+
+### 🚀 Database Optimizations
+Indexing and caching strategies are implemented to enhance performance and scalability. These optimizations reduce database load, speed up data retrieval, and ensure a smooth user experience even under high traffic.
+
+
+---
+
 ## Contact
 
 For questions, suggestions, or collaboration, feel free to open an issue or reach out via email: `vokoliofficial@gmail.com`.
