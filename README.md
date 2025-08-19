@@ -243,6 +243,23 @@ These measures collectively ensure that the platform remains secure, trustworthy
 
 ---
 
+## 🚀 CI/CD Pipeline
+
+Continuous Integration and Continuous Deployment (CI/CD) pipelines automate the process of building, testing, and deploying code changes. This ensures that new features, bug fixes, and updates are delivered quickly and reliably without manual intervention.
+
+For the Airbnb Clone Project, CI/CD is essential to maintain code quality, reduce deployment risks, and enable rapid iteration. Automated pipelines help catch errors early, enforce coding standards, and streamline the release process.
+
+**Tools Used:**
+- **GitHub Actions**: Automates workflows for testing, linting, and deploying code on every push or pull request.
+- **Docker**: Ensures consistent environments across development, testing, and production stages.
+- **Docker Compose**: Manages multi-container setups for services like the backend, database, and caching layers.
+- **Celery & Redis**: Integrated into the pipeline for background task processing and performance monitoring.
+
+These tools collectively support a robust DevOps strategy, enabling the team to deliver high-quality software at scale.
+
+
+---
+
 ## Contact
 
 For questions, suggestions, or collaboration, feel free to open an issue or reach out via email: `vokoliofficial@gmail.com`.
