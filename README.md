@@ -94,14 +94,94 @@ Develops and maintains automated test scripts to ensure continuous feedback on a
 
 ---
 
-## Getting Started
+## 🗃️ Database Design
 
-To begin working on this project, ensure you have the following:
+The Airbnb Clone Project relies on a well-structured relational database to manage users, properties, bookings, reviews, and payments. Below are the key entities, their important fields, and how they relate to one another.
 
-- Python (Installed in your local machine)
-- MySQL Server (Installed in your local machine)
-- Docker & Docker Compose (Installed in your local machine)
-- Git & GitHub account (Git installed, GitHub account created)
+### 👤 Users
+Stores information about individuals using the platform.
+
+**Key Fields:**
+- `id`: Unique identifier
+- `username`: User's login name
+- `email`: Contact email
+- `password`: Encrypted password
+- `role`: Indicates if the user is a guest or host
+
+**Relationships:**
+- A user can list multiple properties.
+- A user can make multiple bookings.
+- A user can leave multiple reviews.
+
+---
+
+### 🏠 Properties
+Represents listings available for booking.
+
+**Key Fields:**
+- `id`: Unique identifier
+- `owner_id`: Foreign key referencing the user who owns the property
+- `title`: Name of the property
+- `description`: Detailed information
+- `location`: Address or coordinates
+
+**Relationships:**
+- A property belongs to one user (host).
+- A property can have multiple bookings.
+- A property can receive multiple reviews.
+
+---
+
+### 📅 Bookings
+Tracks reservations made by users.
+
+**Key Fields:**
+- `id`: Unique identifier
+- `user_id`: Foreign key referencing the guest
+- `property_id`: Foreign key referencing the booked property
+- `start_date`: Check-in date
+- `end_date`: Check-out date
+
+**Relationships:**
+- A booking is made by one user.
+- A booking is for one property.
+- A booking may be linked to a payment.
+
+---
+
+### 📝 Reviews
+Captures feedback from users about properties.
+
+**Key Fields:**
+- `id`: Unique identifier
+- `user_id`: Foreign key referencing the reviewer
+- `property_id`: Foreign key referencing the reviewed property
+- `rating`: Numerical score
+- `comment`: Written feedback
+
+**Relationships:**
+- A review is written by one user.
+- A review is associated with one property.
+
+---
+
+### 💳 Payments
+Handles transaction records for bookings.
+
+**Key Fields:**
+- `id`: Unique identifier
+- `booking_id`: Foreign key referencing the related booking
+- `amount`: Total payment amount
+- `payment_method`: e.g., credit card, PayPal
+- `status`: e.g., pending, completed, failed
+
+**Relationships:**
+- A payment is linked to one booking.
+- A booking can have one payment record.
+
+---
+
+This schema supports scalability, data integrity, and efficient querying, forming the backbone of the platform’s functionality.
 
 
 ---
