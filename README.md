@@ -34,6 +34,43 @@ The **Airbnb Clone Project** is a comprehensive, real-world application designed
 
 ---
 
+## Team Roles
+
+Below are the key roles and their responsibilities:
+
+### Business Analyst (BA)
+Analyzes customer workflows and stakeholder feedback to translate abstract ideas into clear, actionable requirements for the development team.
+
+### Product Owner (PO)
+Defines the product vision and strategy. Manages the product backlog and ensures the final product aligns with customer needs and market trends.
+
+### Project Manager (PM)
+Coordinates team efforts, manages timelines and budgets, and fosters communication. Ensures the team delivers value consistently through Agile iterations.
+
+### UI/UX Designer
+Creates intuitive interfaces and seamless user journeys. Focuses on user research, wireframing, prototyping, and optimizing conversion rates.
+
+### Software Architect
+Designs the high-level architecture, selects appropriate technologies, and enforces code quality standards. Oversees integration and system stability.
+
+### Backend Developer
+Implements API endpoints, database schemas, and core business logic. Ensures the backend is efficient, secure, and scalable.
+
+### Database Administrator
+Designs and manages the database structure, indexing strategies, and performance optimizations to support dynamic content and fast queries.
+
+### DevOps Engineer
+Handles deployment pipelines, monitors system health, and ensures backend services scale reliably using tools like Docker and GitHub Actions.
+
+### QA Engineer
+Tests backend functionalities thoroughly to ensure they meet quality standards. Responsible for identifying bugs and verifying fixes.
+
+### Test Automation Engineer
+Develops and maintains automated test scripts to ensure continuous feedback on application quality with minimal manual intervention.
+
+
+---
+
 ## Getting Started
 
 To begin working on this project, ensure you have the following:
