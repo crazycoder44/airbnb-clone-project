@@ -120,14 +120,6 @@ Primary keys are indexed automatically. Additional indexes are created to optimi
 
 ---
 
-## ✅ Normalization
-
-The schema is normalized up to **Third Normal Form (3NF)**:
-- All attributes are atomic
-- No partial or transitive dependencies
-- Referential integrity is enforced through foreign keys
-
----
 
 ## 📌 Notes
 
